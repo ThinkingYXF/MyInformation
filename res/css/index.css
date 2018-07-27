@@ -1,0 +1,23 @@
+html, body,form, ul,ol,li,dl,dd,dt, p, h1,h2,h3,h4,h5,h6{
+	margin: 0;
+	padding: 0;
+}
+body{
+	/* background: #000; */
+	/* color: #fff; */
+}
+.header_wrapper{
+	position: fixed;
+	top: 0;
+	width: 100%;
+}
+.header_div{
+	padding: 50px 15px 5px;
+}
+.header_nav_ul {
+	overflow: hidden;
+}
+.header_nav_ul li {
+	float: left;
+	padding: 5px 20px;
+}
