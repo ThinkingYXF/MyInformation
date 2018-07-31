@@ -9,36 +9,51 @@
 	<link rel="stylesheet" href="./res/css/index.css">
 </head>
 <body>
+	<!-- canvas1 -->
+	<!-- <div id="jsi-sphere-container" class="container"> -->
+		<!-- <canvas width="1920" height="487"></canvas> -->
+		<!-- <canvas width="1920" height="487"></canvas> -->
+	<!-- </div> -->
+
+
+	<canvas id="MR_LP">Your Browser Does Not Support Canvas</canvas>
 	<div class="header_wrapper">
 		<div class="layui-row header_div">
 			<div class="layui-col-md6">
-				<p>图片+描述</p>
+				<h2 class="myMotto">THINK FROM ANOTHER WAY</h2>
 			</div>
 			<div class="layui-col-md6">
 				<ul class="header_nav_ul">
-					<li><a href="#">HOME</a></li>
-					<li><a href="#">INFORMATION</a></li>
-					<li><a href="#">SKILLS</a></li>
-					<li><a href="#">CONTACT</a></li>
+					<li><a href="#home" class="home">HOME</a></li>
+					<li><a href="#information" class="information">INFORMATION</a></li>
+					<li><a href="#skill" class="skill">SKILLS</a></li>
+					<li><a href="#contact" class="contact">CONTACT</a></li>
 				</ul>
 			</div>
 		</div>
-		<hr>
 	</div>
-
+	<hr>
 	<div class="content_body">
-		asghd
+		<div class="nav_content" id="home">
+			<h1>WELCOME TO MY WORLD</h1>
+			<p>Silence is Golden</p>
+			<button class="musicControl">Play Music</button>
+		</div>
+		<div class="nav_content" id="information">
+
+		</div>
+		<div class="nav_content" id="skill">
+			skill
+		</div>
+		<div class="nav_content" id="contact">
+			contact
+		</div>
 	</div>
 	<script src="./layui/layui.js"></script>
 	<script>
 		layui.config({
 			base: './res/js/modules/'
 		}).use('index');
-
-		{
-			var header_width = document.getElementsByClassName('header_wrapper')[0].clientHeight;
-			document.getElementsByClassName('content_body')[0].style.marginTop = header_width + 'px';
-		}
 	</script>
 </body>
 </html>
