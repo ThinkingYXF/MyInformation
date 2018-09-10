@@ -43,7 +43,7 @@ layui.define(function(exports){
 			//xa , ya 为		粒子 xy 轴加速度
 			//max 	  为		连线的最大距离
 			var dots = [];
-			for(var i = 0; i < 300; i++){
+			for(var i = 0; i < 100; i++){
 				var x = Math.random() * canvas.width;
 				var y = Math.random() * canvas.height;
 				var xa = Math.random() * 2 - 1;
