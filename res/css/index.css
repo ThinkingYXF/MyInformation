@@ -31,7 +31,8 @@ canvas{
 	position: absolute;
 }
 .myMotto{
-	line-height: 1px;
+	position: relative;
+	top: -10px;
 }
 .header_wrapper{
 	position: fixed;
@@ -110,4 +111,16 @@ a[href='#home']{
 }
 #home > .musicControl:hover {
 	background: #2e2b34;
+}
+
+#skill{
+	text-align: left;
+	padding: 20px 100px; 
+}
+#skill .layui-text{
+	color: #fff;
+}
+#skill .layui-timeline-title{
+	color: #fff;
+	font-weight: bold;
 }
