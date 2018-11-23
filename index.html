@@ -34,14 +34,17 @@
 	</div>
 	<hr>
 	<div class="content_body">
+		<!-- 主页 -->
 		<div class="nav_content" id="home">
-			<h1>WELCOME TO MY WORLD</h1>
-			<p>Silence is Golden</p>
+			<h1 class="layui-anim layui-anim-scaleSpring">WELCOME TO MY WORLD</h1>
+			<p class="layui-anim layui-anim-up">Silence is Golden</p>
 			<button class="musicControl">Play Music</button>
 		</div>
+		<!-- 信息页 -->
 		<div class="nav_content" id="information">
 			INFORMATION
 		</div>
+		<!-- 技能页 -->
 		<div class="nav_content" id="skill">
 			<ul class="layui-timeline">
 				<li class="layui-timeline-item">
@@ -93,7 +96,31 @@
 					</div>
 				</li>
 			</ul>
+
+			<div class="mySkill">
+				<div class="skill-item">
+					<p>HTML && CSS && JavaScript && jQuery</p>
+					<div class="layui-progress">
+						<div class="layui-progress-bar" lay-percent="70%"></div>
+					</div>
+				</div>
+				
+				<div class="skill-item">
+					<p>Vue && Angular && React</p>
+					<div class="layui-progress">
+						<div class="layui-progress-bar" lay-percent="40%"></div>
+					</div>
+				</div>
+
+				<div class="skill-item">
+					<p>Nodejs && Linux</p>
+					<div class="layui-progress">
+						<div class="layui-progress-bar" lay-percent="30%"></div>
+					</div>
+				</div>
+			</div>
 		</div>
+		<!-- 联系方式页 -->
 		<div class="nav_content" id="contact">
 			CONTACT
 		</div>

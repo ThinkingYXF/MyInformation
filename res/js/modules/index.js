@@ -1,20 +1,20 @@
 layui.define(['layer', 'form'],function(exports){
-	var layer = layui.layer,
-		form = layui.form;
+	// var layer = layui.layer,
+	// 	form = layui.form;
 	// layer.msg('hello world');
 	exports('index', {});
 });
 
-//逻辑模块
-layui.use('logic', function(){
+/**
+ * logic 逻辑模块
+ * canvas canvas模块
+ * element 进度条
+ */
+layui.use(['logic', 'canvas', 'element'], function(exports){
 	layui.logic.logic();
-})
 
-//canvas模块
-layui.use('canvas', function(){
-	var canvas = layui.canvas;
-	canvas.canvas();
-});
+	layui.canvas.canvas();
+})
 
 //canvas1
 // layui.use('canvas1', function(){
